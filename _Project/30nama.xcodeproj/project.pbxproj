@@ -35,7 +35,7 @@
 		3A2A7C1F21E784760083CB13 /* resize-arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "resize-arrows.png"; sourceTree = "<group>"; };
 		9675E1FB20855F6500A4A84A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9675E1FE20857AEF00A4A84A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B002B8621BAE420500C744AF /* Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B002B8621BAE420500C744AF /* 30nama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30nama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B002B8661BAE420500C744AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B002B8681BAE420500C744AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B002B8691BAE420500C744AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		B002B8631BAE420500C744AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B002B8621BAE420500C744AF /* Browser.app */,
+				B002B8621BAE420500C744AF /* 30nama.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B002B8611BAE420500C744AF /* Browser */ = {
+		B002B8611BAE420500C744AF /* 30nama */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B002B8761BAE420500C744AF /* Build configuration list for PBXNativeTarget "Browser" */;
+			buildConfigurationList = B002B8761BAE420500C744AF /* Build configuration list for PBXNativeTarget "30nama" */;
 			buildPhases = (
 				B002B85E1BAE420500C744AF /* Sources */,
 				B002B85F1BAE420500C744AF /* Frameworks */,
@@ -143,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = Browser;
+			name = 30nama;
 			productName = Browser;
-			productReference = B002B8621BAE420500C744AF /* Browser.app */;
+			productReference = B002B8621BAE420500C744AF /* 30nama.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +163,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B002B85D1BAE420500C744AF /* Build configuration list for PBXProject "Browser" */;
+			buildConfigurationList = B002B85D1BAE420500C744AF /* Build configuration list for PBXProject "30nama" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -177,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B002B8611BAE420500C744AF /* Browser */,
+				B002B8611BAE420500C744AF /* 30nama */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +397,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B002B85D1BAE420500C744AF /* Build configuration list for PBXProject "Browser" */ = {
+		B002B85D1BAE420500C744AF /* Build configuration list for PBXProject "30nama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B002B8741BAE420500C744AF /* Debug */,
@@ -406,7 +406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B002B8761BAE420500C744AF /* Build configuration list for PBXNativeTarget "Browser" */ = {
+		B002B8761BAE420500C744AF /* Build configuration list for PBXNativeTarget "30nama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B002B8771BAE420500C744AF /* Debug */,

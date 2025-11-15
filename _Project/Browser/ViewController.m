@@ -84,7 +84,7 @@ static UIImage *kPointerCursor() {
         [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[[NSUserDefaults standardUserDefaults] stringForKey:@"homepage"]]]];
     }
     else {
-        [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: @"http://www.google.com"]]];
+        [self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString: @"http://30nama.com"]]];
     }
 }
 -(void)initWebView {
@@ -95,7 +95,7 @@ static UIImage *kPointerCursor() {
     [self.webview setTranslatesAutoresizingMaskIntoConstraints:false];
     [self.webview setClipsToBounds:false];
     
-    //[self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
+    //[self.webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://30nama.com"]]];
     
     //[self.view addSubview: self.webview];
     [self.browserContainerView addSubview: self.webview];
@@ -112,7 +112,7 @@ static UIImage *kPointerCursor() {
     }
     
     NSNumber *showTopNavBar = [[NSUserDefaults standardUserDefaults] objectForKey:@"ShowTopNavigationBar"];
-    self.topMenuView.hidden = !(showTopNavBar ? showTopNavBar.boolValue : YES);
+    self.topMenuView.hidden = YES;
     [self updateTopNavAndWebView];
     //scrollView.contentOffset = CGPointMake(0, topHeight);
     scrollView.contentOffset = CGPointZero;
